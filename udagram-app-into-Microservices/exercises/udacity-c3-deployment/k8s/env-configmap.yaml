@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: udagram-mjeed-p4
+  AWS_PROFILE: default
+  AWS_REGION: eu-west-3
+  JWT_SECRET: helloo
+  POSTGRESS_DB: udagmjeeddev
+  POSTGRESS_HOST: udagmjeeddev.cl3p5wfz6txf.eu-west-3.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
